@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Indie+Flower|Lobster|Pacifico|Righteous&display=swap");
+/* font-Koodakbold */
+@font-face {
+  font-family: Koodakbold;
+  src: url("http://fonts.codearena.ir/b/koodakbold/koodakbold.eot");
+  src: url("http://fonts.codearena.ir/b/koodakbold/koodakbold.eot?#iefix")
+      format("embedded-opentype"),
+    url("http://fonts.codearena.ir/b/koodakbold/koodakbold.woff") format("woff"),
+    url("http://fonts.codearena.ir/b/koodakbold/koodakbold.ttf")
+      format("truetype");
+  font-weight: normal;
+}
+.kr-mixed {
+  font-family: "Koodakbold", "Righteous";
+}
+.Koodakbold {
+  font-family: Koodakbold;
+}
+.Indie-Flower {
+  font-family: "Indie Flower", cursive;
+}
+.fontb {
+  font-family: "Amatic SC", cursive;
+}
+.fontc {
+  font-family: "Dancing Script", cursive;
+}
+.Pacifico {
+  font-family: "Pacifico", cursive;
+}
+.Lobster {
+  font-family: "Lobster", cursive;
+}
+.Righteous {
+  font-family: "Righteous", cursive;
+}
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.raised {
+  box-shadow: 0 0 0 1px #d4d4d5, 0 2px 4px 0 rgba(34, 36, 38, 0.12),
+    0 2px 10px 0 rgba(34, 36, 38, 0.15);
+}
+igs-card {
+  border: none !important;
+  /* border-bottom: 2px solid transparent;
+  border-color: #343a40 !important; */
+}
+
+.nav-tabs .igs-nav-link {
+  /* color: #343a40; */
+  color: rgb(84, 91, 98);
+  /* border-bottom: rgb(84, 91, 98) 2px solid; */
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.nav-tabs .igs-nav-link:hover {
+  text-decoration: none;
+}
+.nav-tabs .igs-nav-link {
+  /* background-color: #fff; */
+}
+.nav-igs-pills .igs-nav-link.active,
+.nav-pills .show > .igs-nav-link {
+  /* color: #fff;
+  background-color: #007bff; */
+
+  /* color: #fff !important;
+  background-color: #343a40 !important;
+  border-color: #343a40 !important; */
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+
+  /* box-shadow: 0 0 0 1px #d4d4d5, 0 2px 4px 0 rgba(34, 36, 38, 0.12),
+    0 2px 10px 0 rgba(34, 36, 38, 0.15); */
+  margin-top: -4px;
+  /* margin-right: 4px; */
+  /* margin-left: 4px; */
+  color: #e1306c !important;
+  border: none;
+  border-bottom: 4px solid transparent;
+  /* border-radius: 0.25rem; */
+  /* border-radius: 0; */
+  border-color: #e1306c !important;
+}
+
+/* card-3 border-0 */
+.navbar-style {
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.nav-scroller .nav {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  /* padding-bottom: 1rem; */
+  margin-top: -1px;
+  overflow-x: auto;
+  /* color: rgba(255, 255, 255, 0.75); */
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: hidden;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
